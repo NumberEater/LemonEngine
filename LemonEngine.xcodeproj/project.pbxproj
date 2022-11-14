@@ -10,6 +10,8 @@
 		93BC54CD291D1D42005123CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93BC54CC291D1D42005123CC /* main.cpp */; };
 		93BC54E3291D3BB0005123CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BC54D4291D1D91005123CC /* OpenGL.framework */; };
 		93BC54E7291E5A64005123CC /* libSDL2-2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BC54E6291E5A64005123CC /* libSDL2-2.0.dylib */; };
+		93BC54EA291EA929005123CC /* SDLWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93BC54E8291EA929005123CC /* SDLWrapper.cpp */; };
+		93BC54ED291EC14F005123CC /* Primitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93BC54EB291EC14F005123CC /* Primitive.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,10 @@
 		93BC54CC291D1D42005123CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		93BC54D4291D1D91005123CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		93BC54E6291E5A64005123CC /* libSDL2-2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.dylib"; path = "dependencies/SDL2/lib/libSDL2-2.0.dylib"; sourceTree = "<group>"; };
+		93BC54E8291EA929005123CC /* SDLWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SDLWrapper.cpp; sourceTree = "<group>"; };
+		93BC54E9291EA929005123CC /* SDLWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLWrapper.h; sourceTree = "<group>"; };
+		93BC54EB291EC14F005123CC /* Primitive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Primitive.cpp; sourceTree = "<group>"; };
+		93BC54EC291EC14F005123CC /* Primitive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Primitive.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 			isa = PBXGroup;
 			children = (
 				93BC54CC291D1D42005123CC /* main.cpp */,
+				93BC54E8291EA929005123CC /* SDLWrapper.cpp */,
+				93BC54E9291EA929005123CC /* SDLWrapper.h */,
+				93BC54EB291EC14F005123CC /* Primitive.cpp */,
+				93BC54EC291EC14F005123CC /* Primitive.h */,
 			);
 			path = LemonEngine;
 			sourceTree = "<group>";
@@ -147,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BC54CD291D1D42005123CC /* main.cpp in Sources */,
+				93BC54ED291EC14F005123CC /* Primitive.cpp in Sources */,
+				93BC54EA291EA929005123CC /* SDLWrapper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
